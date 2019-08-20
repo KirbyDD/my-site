@@ -10,8 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <img src={require('./images/chatan.jpg')} alt='American Village in Okinawa' className='chatan-img'/>
-        <header className="App-header">
-        </header>
+        <h1 className='welcome'>Welcome to the personal site of De'Marcus Kirby!</h1>
       </div>
     );
   }
