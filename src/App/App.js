@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
+import Header from '../Header/Header.js'
+import './App.scss';
+
 
 class App extends Component {
   constructor() {
@@ -9,8 +11,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <img src={require('./images/chatan.jpg')} alt='American Village in Okinawa' className='chatan-img'/>
-        <h1 className='welcome'>Welcome to the personal site of De'Marcus Kirby!</h1>
+        <img src={require('../images/chatan.jpg')} alt='American Village in Okinawa' className='chatan-img'/>
+        <Header />
+        
       </div>
     );
   }

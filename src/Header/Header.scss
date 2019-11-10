@@ -1,0 +1,14 @@
+.welcome {
+  color: white;
+  margin: 0;
+  font-size: 80px;
+  text-align: center;
+  white-space: nowrap;
+  animation: type 1.2s steps(60, end);
+  overflow: hidden;
+}
+
+@keyframes type { 
+  from { width: 0%; } 
+  to {width: 100%}
+} 
